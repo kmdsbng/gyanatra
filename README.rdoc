@@ -1,4 +1,4 @@
-= project_name
+= gyanatra
 
 gyabric server clone on Sinatra.
 
