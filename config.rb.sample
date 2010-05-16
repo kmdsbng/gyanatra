@@ -1,0 +1,8 @@
+HOST = 'xxx.xxx.xxx' # your server
+PORT = 10080
+ROOT = '.'
+RUBY_BIN = '/usr/local/bin/ruby'
+ID_FILE = File.join(File.dirname(__FILE__), 'db/id')
+DB_FILE = File.join(File.dirname(__FILE__), 'db/db.pstore')
+IMAGE_DIR = File.join(File.dirname(__FILE__), "public/image")
+

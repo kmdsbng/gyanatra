@@ -1,0 +1,15 @@
+.items
+  - @items.each {|item|
+  = "posted by:#{item[:id]} #{item[:date].strftime('%Y-%m-%d %H:%M:%S')}"
+  %br
+  %img{:src => convert_to_image_url(item[:hash])}
+  %hr
+  - }
+
+.footer
+  %a{:href => "?page=#{[@page.to_i - 1, 1].max}"} newer
+  %span ||
+  %a{:href => "?page=#{@page + 1}"} older
+
+
+

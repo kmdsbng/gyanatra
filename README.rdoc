@@ -1,0 +1,13 @@
+= project_name
+
+gyabric server clone on Sinatra.
+
+
+== Installation
+
+* write config.rb
+* ruby main.rb
+
+== Copyright
+
+Copyright (c) 2010 kmdsbng. See LICENSE for details.
